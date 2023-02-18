@@ -1,0 +1,53 @@
+:root {
+    --primary : #10F5CC;
+    --bg : #1B2326;
+    --2nd : #3A4F52;
+    --text : #F5FEFD;
+}
+
+*,
+html {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: var(--bg);
+    color: var(--text);
+}
+nav {
+    padding: 1rem;
+    background: var(--primary);
+    list-style: none;
+    text-decoration: none;
+    font-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text);
+    padding-right: 10px;
+    border-right: solid 0.5px;
+}
+
+nav ul li:nth-child(3) a{
+    border: none;
+}
+
+
+div .top-bar {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
